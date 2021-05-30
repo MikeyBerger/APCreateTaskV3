@@ -1,0 +1,44 @@
+{
+    "name": "Retry",
+    "maps": [
+        {
+            "name": "RetryMap",
+            "id": "a0ec05f4-0077-4873-a5a0-d439eea79735",
+            "actions": [
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "d927af3a-3af5-4e2a-a5d2-718112430d48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b01c60fd-f4e2-408f-b46b-aeda8a1c2c97",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "375182b6-eb1e-445c-b7db-dbcc5d4279eb",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
